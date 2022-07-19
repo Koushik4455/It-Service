@@ -1,0 +1,596 @@
+
+/* *{
+    font-family: sans-serif;
+    overflow-x: hidden;
+} */
+/* Navbar Css */
+html,body{
+    overflow-x: hidden;
+}
+
+  @media screen and (max-width: 1440px) and (min-width: 976px) {
+     .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(20%);
+        transition: all .5s;
+    }
+    .dropdown:hover .dropdown-menu{
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 283px)  {
+    .navbar-brand {
+        width: 100px !important;
+
+      }
+  }
+ 
+
+.nav-link:hover{
+    color: white!important ;
+    padding-top: 10px !important ;
+    padding-bottom: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background-color: #270D44;
+    margin: 5px 0px;
+    width: fit-content;
+    border-radius: 3px;
+}
+   
+
+.nav-link{
+    font-size: 22px !important ;
+    font-weight:500;
+    color: rgb(41, 39, 39) !important;
+    padding-top: 10px !important ;
+    padding-bottom: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+   
+}
+.dropdown-item{
+    font-size: 22px !important ;
+    font-weight:500;
+}
+.nvic{
+    margin-right: 20px;
+}
+.nvicn{
+    font-size: 25px;
+}
+/* Footer Css */
+.ftrbgi{
+    background-color: #270D44;
+   
+}
+.ftr1rw{
+    padding-left: 20px;
+}
+.ftr1rwpra{
+    margin-top: 10px;
+}
+li{
+    list-style-type: none;
+}
+.ftric{
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+
+.ftrp2{
+    padding-left: 35px;
+}
+.ftr2htg{
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.ftr2li{
+    margin-top: 10px;
+    color: white;
+}
+.ftr3htg{
+    margin-bottom: 20px;
+}
+.ftric1{
+    font-size: 40px;
+   
+}
+.fa-facebook-square{
+   color:white;
+}
+.fa-facebook-square:hover{
+    color: rgb(37, 98, 188);
+}
+.fa-linkedin{
+    color:white;
+
+}
+.fa-linkedin:hover{
+    color:rgb(37, 98, 188);
+}
+.fa-twitter-square{
+    color:white;
+}
+.fa-twitter-square:hover{
+    color: rgb(37, 98, 188);
+}
+.fa-google-plus-square{
+    color:white;
+}
+.fa-google-plus-square:hover{
+    color: rgb(37, 98, 188);
+}
+.ftrcpy{
+    padding-left: 35px;
+    margin-top: 20px;
+}
+/* Home Css */
+.hmcrl1{
+    margin-top: 85px;
+}
+.hmcrl{
+    background-image: url("https://img.freepik.com/premium-photo/cloud-technology-polygonal-wireframe-cloud-storage-sign-with-data-collection-icon-dark-blue-cloud-computing-big-data-center-future-infrastructure-digital-ai-concept-virtual-hosting-symbol_150455-15050.jpg?size=626&ext=jpg&ga=GA1.2.96464124.1655180416");
+    background-size: cover;
+}
+.hmcr2{
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hmcrbtn{
+    background-color:#270D44;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.carousel-p-tag{
+    font-size: 20px;
+    font-weight: 600;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.hm2rw{
+    margin-top: 20px;
+    
+}
+.hm2rabt{
+    padding: 40px;
+}
+.hm2rwbtn{
+    margin-left: 15px;
+    background-color:#270D44;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hm2rw2climg{
+    margin-top: 80px;
+}
+.hm2rwbtn:hover{
+    /* background-color: black; */
+    color: white;
+}
+@media only screen and (max-width: 580px) {
+    .hm2ir {
+     width: 60%;
+     padding-left: 80px;
+    }
+  }
+.hmlk{
+ 
+    font-size: 25px;
+    color: #270D44;
+}
+.hm3rwc1{
+    background-image: url("https://img.freepik.com/premium-photo/icon-internet-world-hands-businessman-network-technology-communication_34998-149.jpg?size=626&ext=jpg&ga=GA1.2.96464124.1655180416");
+    padding: 30px;
+}
+.hm3rwc2{
+    background-image: url("https://img.freepik.com/premium-vector/futuristic-mobile-technology_46706-680.jpg?size=626&ext=jpg&ga=GA1.2.96464124.1655180416");
+    padding: 30px;
+}
+
+.hm4rwbg{
+    background-image: url("https://img.freepik.com/free-vector/abstract-digital-grid-vector-black-background_53876-111550.jpg?t=st=1657885063~exp=1657885663~hmac=e6c3325c801c3fe4ead39a1a4fff9e956e07b8a93404889472d961d4dd26ef38&w=740");
+    background-size: cover;
+    margin-top: 0px;
+    
+    
+    
+}
+.hm41cl{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
+.hm5rwcrd{
+    padding: 20px;
+}
+.hm5rwhtg{
+    color:rgb(37, 98, 188);
+}
+.hm5rwhtg:hover{
+    color: white;
+}
+.hm5rwcrd:hover{
+    background-color:#270D44;
+    color: white;
+    transition: all 1s;
+  
+}
+
+
+
+
+/* About us css */
+.autocutr{
+background-color: aliceblue;
+color: black;
+font-weight: bolder;
+}
+#count1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#count2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#count3{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#count4{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.abt1rwbg{
+    background-image: url("https://img.freepik.com/premium-photo/hand-touching-metaverse-internet-digital-transformation-generation-technology-era-virtual-reality-social-media-platform-business-background-double-exposure-photo_526934-3569.jpg?w=996");
+    background-size: cover;
+}
+.abt1rw1cl{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.abt1rwbtn{
+    color: white;
+    margin-top: 20px;
+}
+.abt1rwbtn:hover{
+    color: blueviolet;
+}
+.abt3rwbg{
+    background-color: lightcyan;
+}
+.abt3rwbtn{
+    background-color: #270D44;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.abt3rwbtn:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.abt4rwbg{
+    background-image: url("https://img.freepik.com/premium-photo/abstract-background-dot-connect-line-cyber-technology-futuristic-network-connection-concept-wireframe_34645-553.jpg?w=996");
+    background-size: cover;
+}
+.abt4rwcl{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+/* Pricing Css */
+.prg2rwdlr{
+    margin-left: 50px;
+}
+.prgicn2rw{
+    margin-right: 10px;
+}
+.prg2rwbtn{
+    background-color:  #270D44;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.prg2rwbtn:hover{
+    background-color: rgb(75, 48, 228);
+    color: white;
+}
+.prg2rwcrd{
+    border-radius: 10px;
+}
+.prg2rwcrd:hover{
+    border: 1px solid black;
+
+}
+.prg3rwbg{
+    background-color: rgb(81, 81, 230);
+}
+.prg3rw1cl{
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+.prgfm{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.prgfm2{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.prgfmbtn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #270D44;
+    color: white;
+}
+.prgfmbtn:hover{
+    background-color: rgb(81, 81, 230) ;
+    color: white;
+}
+.prgct{
+    margin-left:-60px;
+}
+.prg4rw{
+    margin-top: -350px;
+}
+
+
+/* Team Css */
+.tm2rwic{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(35, 150, 232);
+    padding-left: 5px;
+}
+.tmcrd2{
+    margin-top: -55px;
+    margin-bottom: 20px;
+}
+
+  @media screen and (max-width: 976px) and (min-width: 575px) {
+    .tmrs1 {
+    font-size: 20px;
+    font-weight: bold;
+    
+     
+    }
+  }
+  /* Blog Clasic Css */
+  .blgtp{
+    margin-top: 95px;
+  }
+  /* .blgbtns{
+    padding-right: 30px;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .blgbtns1{
+    padding-left: 50px;
+  }
+  .blgbtns11{
+    padding-right: 10px;
+    font-size: 25px;
+    font-weight: 500;
+  } */
+  .blg2rwbtns{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid gainsboro;
+  }
+  @media screen and (max-width: 770px) and (min-width:  500px) {
+ .blg2rwbtns{
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+  }
+  @media screen and (max-width: 976px) and (min-width:  771px) {
+    .blg2rwbtns{
+       
+       padding-left: 10px;
+       padding-right: 10px;
+       }
+     }
+     @media screen and (max-width: 976px) and (min-width:  771px) {
+        .blgrspd{
+       
+            padding: 10px !important;
+             }
+         }
+  @media screen and (max-width: 770px) and (min-width:  500px) {
+    .blgrspd{
+       
+      padding: 0px !important;
+       }
+     }
+     /* contact css */
+     .cticn{
+        font-size: 40px;
+        margin-top: 18px;
+        color: #270D44 ;
+        
+     }
+     .ctcrd{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     }
+     .ct2rw{
+        margin-top: 50px;
+        padding: 30px;
+     }
+     /* Services */
+     .services{
+        margin-top: 85px;
+    }
+    .mrtp{
+        margin-top: 85px;
+    }
+    .service-head{
+        background-image: url(https://expert-themes.com/html/globex/images/background/pattern-16.png);
+        background-color: rgb(10, 42, 68);
+        height: 300px;
+        width: 100%;
+    }
+    .page-title{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    .body-img{
+        margin: auto;
+        align-items: center;
+    }
+    @media screen and (max-width:425px) {
+        .body-img{
+            width:100px;
+        }
+        
+    }
+    .title-head{
+        color: white;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .title2{
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .titlecard:hover{
+        color: #0060ff;
+        cursor: pointer;
+    }
+    .read-more{
+        color: black;
+        font-weight: 700;
+        font-size: 12px;
+    }
+       
+    .read-more:hover{
+        text-decoration: none;
+        color: #0060ff;
+    }
+    
+    /* detail */
+    .arrow{
+        padding-left: -15px;
+        padding-right: -15px;
+    }
+    .arrow-title{
+        padding-left: -15px !important;
+        padding-right: -15px;
+    }
+    .arrow-title:hover{
+     background-color:gray;
+     color: white;
+    }
+    
+    .srsmr{
+        margin-left: -30px;
+    }
+    .text11{
+        position: relative;
+        color: #555555;
+        font-size: 16px;
+        line-height: 1.8em;
+        font-weight: 400;
+    }
+    .head112{
+        color: #0060ff;
+    }
+    .cardedd{
+        padding: 30px;
+        background-color: aliceblue;
+    }
+    
+    /* blog our */
+    .titlecard-blog{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .titlecard-blog:hover{
+        color: #0060ff;
+        cursor: pointer;
+    }
+    .dte{
+        color: #0060ff;   
+    }
+    .mont{
+        color:#555555;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .line{
+        border: 1px solid rgb(114, 114, 114);
+        
+    }
+    /* .admi a{
+        text-decoration: none !important;
+        list-style-type: none;
+    } */
+    .pagination {
+        display: inline-block;
+      }
+      
+      .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 0 4px;
+      }
+      .pagination a:hover{
+        background-color: #141d38;
+        color: white;
+      }
+      
+      .pagination a.active {
+        background-color:  #141d38;
+        color: white;
+       
+      }
+     .pagination a:nth-child(1){
+        background: #0060ff;
+        color: white;
+      }
+      .pagination a:nth-child(7){
+        background: #0060ff;
+        color: white;
+      }
